@@ -7,6 +7,6 @@ func main()  {
 	/*
 		Go
 	*/
-	fmt.println("Hola! Go")
+	fmt.Println("Hola! Go")
 }
 

@@ -4,9 +4,9 @@ import "fmt"
 
 
 func main()  {
-/*
-	Go
-*/
-fmt.Println("Hola! Go")
+	/*
+		Go
+	*/
+	fmt.Println("Hola! Go")
 }
 

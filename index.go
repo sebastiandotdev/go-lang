@@ -2,11 +2,9 @@ package main
 
 import "fmt"
 
-
-func main()  {
+func main() {
 	/*
 		Go
 	*/
 	fmt.Println("Hola! Go")
 }
-

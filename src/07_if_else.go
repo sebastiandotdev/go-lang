@@ -1,24 +1,23 @@
 /*Condicionales*/
 
-/* 
-if <definicion de variable> ; <condicion> {
-	
-}
+/*
+   if <definicion de variable> ; <condicion> {
+
+   }
 */
 num := 20
 name := "Sebastian"
 
 /* func main() {
-	if valor := rand.int(); valor % 2 == 0 {
-		fmt.Println("El numero, ", valor, "es par")
-	} else {
-		fmt.Println("el numero, ", valor, "es impar")
-	}
+   	if valor := rand.int(); valor % 2 == 0 {
+   		fmt.Println("El numero, ", valor, "es par")
+   	} else {
+   		fmt.Println("el numero, ", valor, "es impar")
+   	}
 
-	fmt.Println("Adios !")
-}
+   	fmt.Println("Adios !")
+   }
 */
-
 
 if num == 20 {
 	fmt.Println("El numero es igual a 20")

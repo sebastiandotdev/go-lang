@@ -1,4 +1,4 @@
 /*Ejemplo */
 x := 33
 
-fmt.Println("Hola", "Numero", x , "!")
+fmt.Println("Hola", "Numero", x , "!\n")

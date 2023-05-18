@@ -23,3 +23,21 @@ func Max(a, b int) int {
 	}
 	return b
 }
+
+func MaxMin(a, b int) (int, int) {
+	if a > b {
+		return a, b
+	}
+	return b, a
+}
+
+func MinMax(a, b int) (max, min int) {
+	if a > b {
+		max = a
+		min = b
+	} else {
+		min = a
+		max = b
+	}
+	return
+}

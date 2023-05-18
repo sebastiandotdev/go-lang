@@ -3,11 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	var p *int
+
+	a := 3
+	fmt.Println("antes: ", a)
+	Increment(&a)
+	fmt.Println("despues: ", a)
 	/*
 		Go
 	*/
 	fmt.Println("Hola! Go")
-	i := 10
-	p = &i
+}
+
+func Increment(value *int) {
+	*value++
 }

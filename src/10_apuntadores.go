@@ -10,6 +10,8 @@ p := &i
 
 a := *p
 *p = 21
+
+
 if pi == nil {
 	fmt.Println("No puedo hacer nada con este apuntador")
 	fmt.Println("Porque no apunta a nada!")

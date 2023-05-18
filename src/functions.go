@@ -12,3 +12,7 @@ func <Nombre de la funcion>() {
 func Hola() {
 	fmt.Println("Hola!")
 }
+
+func Params(name string, lastname string) {
+	fmt.Println("!Hola, %s %s!\n", name, lastname)
+}

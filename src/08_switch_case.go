@@ -1,3 +1,5 @@
+package src
+
 /* switch <expresion a evaluar> {
 	case <valor posible>:
 		// codigo

@@ -1,0 +1,14 @@
+package src
+
+import "fmt"
+
+/*
+func <Nombre de la funcion>() {
+	// codigo a ejecutar en cada invocacion
+}
+
+*/
+
+func Hola() {
+	fmt.Println("Hola!")
+}

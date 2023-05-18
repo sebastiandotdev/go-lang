@@ -13,6 +13,13 @@ func Hola() {
 	fmt.Println("Hola!")
 }
 
-func Params(name string, lastname string) {
+func Params(name, lastname string) {
 	fmt.Println("!Hola, %s %s!\n", name, lastname)
+}
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }

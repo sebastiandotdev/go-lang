@@ -1,4 +1,4 @@
-
+package src
 /* result: 12 */
 a := 8 + 3 * (1 + 3) % 5
 

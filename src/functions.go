@@ -41,3 +41,7 @@ func MinMax(a, b int) (max, min int) {
 	}
 	return
 }
+
+// func() {
+// 	fmt.Println("hello")
+// }()

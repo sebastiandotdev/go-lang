@@ -1,3 +1,5 @@
+package src
+
 /*Ejemplo */
 x := 33
 

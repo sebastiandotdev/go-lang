@@ -11,6 +11,9 @@ p := &i
 a := *p
 *p = 21
 
+fruit := "manzana"
+
+fmt.Printf("Tipo de dato: %T, valor: %s", fruit, fruit)
 
 if pi == nil {
 	fmt.Println("No puedo hacer nada con este apuntador")

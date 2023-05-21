@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	type Course struct {
@@ -17,4 +19,5 @@ func main() {
 	fmt.Println(db)
 
 	fmt.Println(assets)
+
 }

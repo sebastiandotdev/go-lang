@@ -1,6 +1,10 @@
-package src
+package main
+
+import "fmt"
 
 /*Ejemplo */
-x := 33
+func main() {
+	x := 33
 
-fmt.Println("Hola", "Numero", x , "!\n")
+	fmt.Println("Hola", "Numero", x, "!\n")
+}

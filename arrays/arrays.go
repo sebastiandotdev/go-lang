@@ -10,4 +10,5 @@ func arrays() {
 
 	food_two := [3]string{"hsz", "jsjs", "su"}
 	fmt.Println(food)
+	fmt.Println(food_two)
 }

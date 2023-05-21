@@ -1,5 +1,10 @@
 package src
 
+import (
+	"fmt"
+	"runtime"
+)
+
 /* switch <expresion a evaluar> {
 	case <valor posible>:
 		// codigo
@@ -13,13 +18,15 @@ package src
    switch <inicializacion de variable>; <expresion a evaluar>
 */
 
-arch := runtime.GOARCH
+func main() {
+	arch := runtime.GOARCH
 
-switch arch {
-case "386":
-	fmt.Println("x86 de 32bits")
-case "amd64":
-	fmt.Println("x86 de 64bits")
-default:
-	fmt.Println(os)
+	switch arch {
+	case "386":
+		fmt.Println("x86 de 32bits")
+	case "amd64":
+		fmt.Println("x86 de 64bits")
+	default:
+		fmt.Println("error")
+	}
 }

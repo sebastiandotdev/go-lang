@@ -12,5 +12,9 @@ func main() {
 		Name: "err",
 		Date: "09/09q&/w09e",
 	}
+	assets := &db
+
 	fmt.Println(db)
+
+	fmt.Println(assets)
 }

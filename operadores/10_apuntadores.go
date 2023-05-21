@@ -1,21 +1,24 @@
-package src
+package main
 
-var i *int  // apuntador a ints
-var x *bool // apuntador a bools
+import "fmt"
+
 var pi *int
 
-pi = nil
-i := 10
-p := &i
+func main() {
+	pi = nil
+	i := 10
+	p := &i
 
-a := *p
-*p = 21
+	a := *p
+	*p = 21
 
-fruit := "manzana"
+	fmt.Println(a)
+	fruit := "manzana"
 
-fmt.Printf("Tipo de dato: %T, valor: %s", fruit, fruit)
+	fmt.Printf("Tipo de dato: %T, valor: %s", fruit, fruit)
 
-if pi == nil {
-	fmt.Println("No puedo hacer nada con este apuntador")
-	fmt.Println("Porque no apunta a nada!")
+	if pi == nil {
+		fmt.Println("No puedo hacer nada con este apuntador")
+		fmt.Println("Porque no apunta a nada!")
+	}
 }

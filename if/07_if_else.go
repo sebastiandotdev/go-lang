@@ -1,3 +1,7 @@
+package main
+
+import "fmt"
+
 /*Condicionales*/
 
 /*
@@ -5,8 +9,6 @@
 
    }
 */
-num := 20
-name := "Sebastian"
 
 /* func main() {
    	if valor := rand.int(); valor % 2 == 0 {
@@ -19,14 +21,19 @@ name := "Sebastian"
    }
 */
 
-if num == 20 {
-	fmt.Println("El numero es igual a 20")
-} else {
-	fmt.Println("El numero no es igual a 20")
-}
+func main() {
+	num := 20
+	name := "sebastian"
+	if num == 20 {
+		fmt.Println("El numero es igual a 20")
+	} else {
+		fmt.Println("El numero no es igual a 20")
+	}
 
-if name != "sebastian" {
-	fmt.Println("no eres sebastian")
-} else {
-	fmt.Println("bienvenido sebastian")
+	if name != "sebastian" {
+		fmt.Println("no eres sebastian")
+	} else {
+		fmt.Println("bienvenido sebastian")
+	}
+
 }

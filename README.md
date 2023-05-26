@@ -1,2 +1,2 @@
-# go-lang
-go &lt;3
+# curso-go
+Ejemplos curso GO desde cero EDteam
